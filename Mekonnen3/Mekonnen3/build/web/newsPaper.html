@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta http-equiv="refresh" content="30"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #more {display: none;}
+        </style>
+        <title>
+            Welcome
+        </title>
+
+
+    </head>
+    <body>
+        <div id="content">
+            <h3><b><i>World News</i></b></h3>
+            <h4>Covid-19: English lockdown may last beyond 2 Dec, says Gove</h4>
+            <p>Michael Gove says it is his "fervent hope" that England's new lockdown will end on 2 December - but that ministers will be "guided by the facts".<span id="dots">...</span><span id="more">
+                    "We do need to get the R rate below 1," the Cabinet Office minister told the BBC's Andrew Marr Show.
+                    The strict measures are due to come into force from Thursday.
+
+                    Pubs, restaurants, gyms, non-essential shops and places of worship will close, but schools, colleges and universities can stay open.
+
+                    The prime minister is expected to deliver a statement in the Commons on Monday before a vote on the latest restrictions on Wednesday. Labour has said it will back the lockdown.
+
+                </span></p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+        </div>
+        <br>
+        <div id="eventArea">
+            <h5><b>What's new?</b></h5>
+            <input id="id" type="hidden"   name="eventToken" value="0">
+            <p id ="event">event</p>
+            <!--<button onclick="loadEvent()">Click me</button>-->
+        </div>
+        <script type="text/javascript" src="Resources/ajax.js"></script>
+        <script>
+                function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+        </script>
+    </body>
+</html>

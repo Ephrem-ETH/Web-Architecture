@@ -1,0 +1,14 @@
+<div class="card" style="width: 15rem; margin-top: 30px; margin-left: 20px;">
+  <div class="card-header">Person detail</div>
+  <div class="card-body">
+    <img class="card-img-top img-responsive" src="{{selectedPerson.photoURL}}" alt="Image">
+    <p class="card-text" class="font-weight-light"> Name: <span class="text-primary">{{selectedPerson.name}} </span></p>
+    <p class="card-text" class="font-weight-light"> Date of birth: <span
+        class="text-primary">{{selectedPerson.birthDate|date:'dd-MM-yyyy'}} </span></p>
+    <p class="card-text" class="font-weight-light">Party: <span class="text-primary">{{memberParty.ActualName}}</span>
+    </p>
+    <p class="card-text" class="font-weight-light"><span>Website: </span><a class="card-link"
+        href="{{personalWebsite.WebURL}}">{{personalWebsite.WebURL}}</a></p>
+
+  </div>
+</div>

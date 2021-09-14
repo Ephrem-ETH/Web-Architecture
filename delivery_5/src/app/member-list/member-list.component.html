@@ -1,0 +1,21 @@
+<div class=" container col-md-offset-1">
+  <div class="col-md-12">
+  
+   <table class="table table-striped table-sm " style="margin-top: 50px;">
+     <thead>
+       <th>Photo</th>
+       <th>Member Name</th>
+     </thead>
+     <tbody>
+      <tr *ngFor="let member of memberList">
+        <td *ngIf="!member.photoURL"> <i class="bi bi-camera-fill"></i>
+        </td>
+        <td *ngIf="member.photoURL"><i class="bi bi-camera "></i></td>
+        <td><a [routerLink]="['detail',member.personId]" style="text-decoration: none;">{{member.name}}</a></td>
+              
+    </tr>
+     </tbody>
+  
+   </table>
+</div>
+  </div>

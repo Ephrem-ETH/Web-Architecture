@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Deposit Your money</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            label {
+                display: inline-block;
+                width: 140px;
+                text-align: left;
+            }
+            body {background:url("") center center repeat;
+                  margin: 50px;
+                  padding: 20px;}
+            #wrap { width: 50%;
+                    margin: auto;
+                    background: #C9A281;
+                    overflow: hidden;
+                    padding: 15px;}
+            </style>
+    </head>
+    <body>
+        <div id="wrap"><b>Deposit your money</b>
+        <form action="DepositServlet" method="post">
+            <div class="form-group">
+                <p> <label>Account Number:   <input id="acc_number" type="number" name="account_number"  placeholder="Enter your number"></label></p>
+                
+                <p> <label> Amount:
+                        <input id="amount" type="number" name="amount"  placeholder="Enter the amount"> </label></p>
+                <input type="submit" name="deposit" value="Deposit">
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

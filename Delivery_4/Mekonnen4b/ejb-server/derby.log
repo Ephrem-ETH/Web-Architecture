@@ -1,0 +1,16 @@
+Sun Dec 06 21:36:11 CET 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Sun Dec 06 21:36:12 CET 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0176-39c4-d8aa-00007fec85e5 
+on database directory C:\Users\Ephrem\Documents\NetBeansProjects\ejb-server\BankDB with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/C:/Users/Ephrem/Documents/derbyDB/db-derby-10.14.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\Ephrem\Documents\derbyDB\db-derby-10.14.2.0-bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Ephrem\Documents\NetBeansProjects\ejb-server
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Dec 07 01:55:52 CET 2020: Shutting down Derby engine

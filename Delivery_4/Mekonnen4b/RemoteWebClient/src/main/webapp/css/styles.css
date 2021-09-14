@@ -1,0 +1,53 @@
+.input-group-addon {
+  height: 10;
+}
+
+body {
+  background-image: url(../css/money.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.account {
+  text-align: center;
+  display: none;
+  background-color: #464D41;
+  box-shadow: 5px 5px 2.5px #535233;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+#sign-up, #deposit-withdraw {
+  background-color: #DEDBBA;
+  box-shadow: 5px 5px 2.5px #535233;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: #8C873E;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+}
+
+#sign-up {
+  float:left;
+}
+
+#deposit-withdraw {
+  display: none;
+}
+
+h4 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+}
